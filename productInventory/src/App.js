@@ -1,6 +1,7 @@
 import './App.css';
 // bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AddInventory from './components/classComponent';
 import AddProduct from './components/funcComponent';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Product Inventory form by Reactjs</h1>
+        <AddInventory/>
         <AddProduct/>
         {/* <h1>We will cover here:</h1>
         <ul>
